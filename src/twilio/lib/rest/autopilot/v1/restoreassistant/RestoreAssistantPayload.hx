@@ -1,0 +1,27 @@
+package twilio.lib.rest.autopilot.v1.restoreassistant;
+
+typedef RestoreAssistantPayload = {
+	var account_sid : String;
+	var callback_events : String;
+	var callback_url : String;
+	var date_created : js.lib.Date;
+	var date_updated : js.lib.Date;
+	var development_stage : String;
+	var friendly_name : String;
+	var latest_model_build_sid : String;
+	var log_queries : Bool;
+	var needs_model_build : Bool;
+	var sid : String;
+	var unique_name : String;
+	var first_page_uri : String;
+	var next_page_uri : String;
+	var page : Float;
+	var page_size : Float;
+	var previous_page_uri : String;
+	var uri : String;
+	@:optional
+	var meta : {
+		@:optional
+		var key : String;
+	};
+};

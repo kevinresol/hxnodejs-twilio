@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "dts2hx": "^0.15.3",
+    "twilio": "^3.52.0"
+  }
+}

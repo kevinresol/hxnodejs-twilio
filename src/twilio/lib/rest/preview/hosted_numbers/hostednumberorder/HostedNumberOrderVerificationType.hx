@@ -1,0 +1,3 @@
+package twilio.lib.rest.preview.hosted_numbers.hostednumberorder;
+
+typedef HostedNumberOrderVerificationType = twilio.lib.rest.preview.hosted_numbers.authorizationdocument.dependenthostednumberorder.DependentHostedNumberOrderVerificationType;
